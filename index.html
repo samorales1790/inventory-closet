@@ -3,17 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inventory Search</title>
+  <title>5CC Inventory Closet</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <h1>5CC Inventory Closet</h1>
+    <p>Search and locate items quickly by drawer and category</p>
+  </header>
   <div class="container">
-    <h1>Inventory Closet Search</h1>
-    <input type="text" id="searchBar" placeholder="Search for an item..." />
-    <select id="categoryFilter">
-      <option value="">All Categories</option>
-    </select>
+    <div class="search-bar">
+      <input type="text" id="searchBar" placeholder="Search for an item..." />
+      <select id="categoryFilter">
+        <option value="">All Categories</option>
+      </select>
+    </div>
     <div id="results"></div>
+
+    <div class="drawer-map">
+      <h2>Drawer Map</h2>
+      <p>Click image to enlarge. Use this map to locate towers and drawer numbers.</p>
+      <img src="placeholder-drawer-map.png" alt="Drawer Map of Inventory Closet" />
+    </div>
   </div>
   <script src="inventory.js"></script>
   <script src="script.js"></script>
