@@ -6,11 +6,11 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Karla', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: var(--clay);
-  color: #333;
+  background-color: var(--agave);
+  color: var(--white);
 }
 
 header {
@@ -36,12 +36,14 @@ header {
 input, select {
   padding: 1rem;
   font-size: 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid var(--white);
   border-radius: 8px;
+  color: #000;
 }
 
 .item {
   background: var(--white);
+  color: #000;
   border-left: 5px solid var(--avocado);
   padding: 1rem;
   border-radius: 6px;
@@ -55,6 +57,7 @@ input, select {
   padding: 1rem;
   border-radius: 6px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  color: #000;
 }
 
 .drawer-map img {
